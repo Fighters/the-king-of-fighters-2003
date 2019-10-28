@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Duo Lon"
+    },
+    "japan": {
+      "roman": "Duo Lon",
+      "original": "デュオロン"
+    }
+  },
+  "images": {
+    "face": "duolon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Suishu - Shoko",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Fukatenshi",
+        "input": ":df:+[D]"
+      },
+      {
+        "name": "Raikatenshi",
+        "input": ":df:+[D] > [D]"
+      },
+      {
+        "name": "Hikatenshi",
+        "input": "{duringForwardJump}, [B] > [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shaki Juryu",
+        "input": ":qcf:+[A] {or} [C] ({upTo3x})"
+      },
+      {
+        "name": "Onpei Ryujinha",
+        "input": ":qcf:+[A] {or} [C] > :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Shiryo Hasseikin",
+        "input": ":qcf:+[A] {or} [C] > :f:+[B] {or} [D] > :qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Genmukyaku - Uchikiba",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Genmukyaku - Sotokiba",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "Genma Hisho Keiko",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Suishu - Makyakuho",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Suishu - Ransaiki",
+        "input": ":qcb:+[A] {or} [C]",
+        "after": "Suishu - Makyakuho"
+      },
+      {
+        "name": "Himokyaku",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hiden - Genmu Juon Shikon",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hiden - Genmu Onryoheki",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Ogi - Taju Genmu Ankei",
+        "input": "[A] > [C] > [B] > [D]"
+      }
+    ]
+  }
+}
