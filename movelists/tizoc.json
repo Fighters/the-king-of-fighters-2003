@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "Tizoc"
+    },
+    "japan": {
+      "roman": "Griffon Mask",
+      "original": "グリフォンマスク"
+    }
+  },
+  "images": {
+    "face": "tizoc.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Griffon Tower",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Super Grid Kick",
+        "input": ":d:+[C]+[D]"
+      },
+      {
+        "name": "Upper Evasion Kick",
+        "input": ":d:+[A]+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Olympus Over",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Active Tupon",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Poseidon Wave",
+        "input": ":rdp:+[A] {or} [C]"
+      },
+      {
+        "name": "Justice Hurricane",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hercules Throw",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Icarus Crash",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Icarus Crash",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Griffall",
+        "input": "{griffallMoves}, :df::df:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Big Fall Griffon",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Daedalus Attack",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Big Fall Griffon",
+        "input": ":hcb::hcb:+[A]+[C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "griffallMoves": "after Griffon Tower, Olympus Over {or} Poseidon Wave"
+    },
+    "portuguese": {
+      "griffallMoves": "após Griffon Tower, Olympus Over {or} Poseidon Wave"
+    }
+  }
+}
