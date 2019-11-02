@@ -1,0 +1,82 @@
+{
+  "names": {
+    "default": {
+      "roman": "Robert"
+    },
+    "japan": {
+      "roman": "Robert",
+      "original": "ロバート・ガルシア"
+    }
+  },
+  "images": {
+    "face": "robert.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubikiri Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Koryu Kokyaku Geri",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Uraken",
+        "input": ":b:+[A]"
+      },
+      {
+        "name": "Ryuhanshu",
+        "input": ":b: {or} :f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ryugekiken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryuzansho",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Senpukyaku",
+        "input": ":qcb:+[B] {or} [D] ({upTo4x})"
+      },
+      {
+        "name": "Geneikyaku",
+        "input": ":f::b::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Kyokugenryu Renbukyaku",
+        "input": "{close}, :hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Ryujinkyaku",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Jiryu Haisenkyaku",
+        "input": "{inAir}, :qcb::qcb:+[B]"
+      },
+      {
+        "name": "Hiryu Choshukyaku",
+        "input": "{inAir}, :qcb::qcb:+[D]"
+      }
+    ]
+  }
+}
