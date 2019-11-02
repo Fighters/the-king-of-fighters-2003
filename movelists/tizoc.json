@@ -47,7 +47,7 @@
       },
       {
         "name": "Hercules Throw",
-        "input": ":hcb:+[A] {or} [C]"
+        "input": ":hcf:+[B]"
       },
       {
         "name": "Icarus Crash",
