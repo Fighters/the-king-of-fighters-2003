@@ -141,7 +141,7 @@
     ],
     "{leaderDesperationMove}": [
       {
-        "name": "Zen Shiki: Ressohitenkyaku",
+        "name": "Zen Shiki: Resso Hitenkyaku",
         "input": ":qcf::qcf:+[A]+[C]",
         "extraInfo": "{ryokojinLDM}"
       }
