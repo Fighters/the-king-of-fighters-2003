@@ -1,0 +1,168 @@
+{
+  "names": {
+    "default": {
+      "roman": "Jhun"
+    },
+    "japan": {
+      "roman": "Jhun",
+      "original": "ジョン・フーン"
+    }
+  },
+  "images": {
+    "face": "jhun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kaisenpu",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Soshugeki",
+        "input": ":f:+[A]",
+        "extraInfo": "{soshujinCompatible}"
+      },
+      {
+        "name": "Ryokogeki",
+        "input": ":f:+[B]",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Ryuroshu",
+        "input": "{inAir}, :d:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kusajin",
+        "input": "{charge} :d: :u:+[A] {or} [C]",
+        "extraInfo": "{soshujinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Haikigeki",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{soshujinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Mangetsuzan",
+        "input": ":qcb:+[B] {or} [D]",
+        "extraInfo": "{ryokojinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Soshujin",
+        "input": ":d::d:+{hold} [A] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Switching Attack",
+        "input": "{press} [A]",
+        "after": "Soshujin",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Mangetsuzan",
+        "input": "{press} [B]",
+        "after": "Soshujin",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Koshuwa",
+        "input": ":b:+[B]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Shusokyaku Lower",
+        "input": "{press} [C]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Shusokyaku Upper",
+        "input": ":u:+[C]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Soshujin Cancel",
+        "input": "{press} [D]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Ryokojin",
+        "input": ":d::d:+{hold} [B] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Switching Attack",
+        "input": "{press} [A]",
+        "after": "Ryokojin",
+        "extraInfo": "{soshujinCompatible}"
+      },
+      {
+        "name": "Kusajin",
+        "input": ":u:+[A]",
+        "after": "Ryokojin",
+        "extraInfo": "{soshujinCompatible}"
+      },
+      {
+        "name": "Koretsuso",
+        "input": "{press} [B]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Mokogeki",
+        "input": "{press} [C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Hikogeki",
+        "input": ":u:+[C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Shukogeki",
+        "input": ":d:+[C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Ryokojin Cancel",
+        "input": "{press} [D]",
+        "after": "Ryokojin"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Houou Ressokyaku",
+        "input": ":qcf::qcf:+[B] {or} [D]",
+        "extraInfo": "{soshujinDM}"
+      },
+      {
+        "name": "Houou Tenbukyaku",
+        "input": "{inAir}, :qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Zen Shiki: Ressohitenkyaku",
+        "input": ":qcf::qcf:+[A]+[C]",
+        "extraInfo": "{ryokojinLDM}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "ryokojinCompatible": "Jhun enters the Ryokojin stance after this move",
+      "ryokojinCompatibleSpecialMove": "{ryokojinCompatible}, if performed with [B]",
+      "soshujinCompatible": "Jhun enters the Soshujin stance after this move",
+      "soshujinCompatibleSpecialMove": "{soshujinCompatible}, if performed with [A]",
+      "soshujinDM": "Can be done with [B] during the Soshujin stance",
+      "ryokojinLDM": "Can be done with [C] during the Ryokojin stance"
+    },
+    "portuguese": {
+      "ryokojinCompatible": "Jhun fica na pose do Ryokojin após este golpe",
+      "ryokojinCompatibleSpecialMove": "{ryokojinCompatible}, se feito com [B]",
+      "soshujinCompatible": "Jhun fica na pose do Soshujin após este golpe",
+      "soshujinCompatibleSpecialMove": "{soshujinCompatible}, se feito com [A]",
+      "soshujinDM": "Pode ser feito com [B] durante a pose do Soshujin",
+      "ryokojinLDM": "Pode ser feito com [C] durante a pose do Ryokojin"
+    }
+  }
+}
