@@ -1,0 +1,62 @@
+{
+  "names": {
+    "default": {
+      "roman": "Adel"
+    },
+    "japan": {
+      "roman": "Adel",
+      "original": "アーデルハイド・バーンシュタイン"
+    }
+  },
+  "images": {
+    "face": "adel.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Drücken",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "A. Kunst Eins",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "A. Kunst Zwei",
+        "input": ":df:+[C]"
+      },
+      {
+        "name": "A. Kunst Vier",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "G. Wand",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "G. Kicken",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "G. Drücken",
+        "input": ":qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "G. Kreis",
+        "input": ":dp:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "G. Skragen",
+        "input": ":qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
