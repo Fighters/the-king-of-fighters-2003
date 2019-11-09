@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Maki"
+    },
+    "japan": {
+      "roman": "Maki",
+      "original": "神楽 マキ"
+    }
+  },
+  "images": {
+    "face": "maki.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kaiten",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Jokatsu: Heihei (Heihei)",
+        "input": ":b: {or} :f:+[A]"
+      },
+      {
+        "name": "Jokatsu: Nusa Nusa (Heihei)",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Jokatsu: Hera Hera (Heihei)",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rimen 100 Katsu: Jingi no Kotowari",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Rimen 108 Katsu: Iotsu no Utamai",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Rimen 212 Katsu: Mikagura no Shinobigoto",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Rimen 212 Katsu: Mikagura no Noritogoto",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "94 Katsu: Rakusui no Jinki",
+        "input": ":qcb:+[B]"
+      },
+      {
+        "name": "212 Katsu: Heishiki - Tarumusubi no Keihitsu",
+        "input": ":d::d:+[A]"
+      },
+      {
+        "name": "212 Katsu: Heishiki - Sakaki no Kirinusa",
+        "input": ":d::d:+[B]"
+      },
+      {
+        "name": "212 Katsu: Koshiki - Himorogi no Reiji",
+        "input": ":d::d:+[C]"
+      },
+      {
+        "name": "212 Katsu: Koshiki - Iwasaka no Ubusuna",
+        "input": ":d::d:+[D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Rimen 1 Katsu: Sanrai no Fujin",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Rimen 85 Katsu: Reigi no Ishizue",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
