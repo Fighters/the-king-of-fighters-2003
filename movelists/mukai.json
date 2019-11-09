@@ -1,0 +1,52 @@
+{
+  "names": {
+    "default": {
+      "roman": "Mukai"
+    },
+    "japan": {
+      "roman": "Mukai",
+      "original": "無界"
+    }
+  },
+  "images": {
+    "face": "mukai.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Destructive Drubbing",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Disruptor",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Terrestrial Shock",
+        "input": ":qcb:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "Heavenly Shock",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Execution",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Impact of Steel",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Netherworld Agony",
+        "input": ":qcb::db::qcf:+[A]+[C]"
+      }
+    ]
+  }
+}
