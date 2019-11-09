@@ -1,0 +1,94 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hinako"
+    },
+    "japan": {
+      "roman": "Hinako",
+      "original": "四条 雛子"
+    }
+  },
+  "images": {
+    "face": "hinako.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tasuki Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Maemitsu Tataki",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "EH Kick",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tsukidashi",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Tsukiage",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Tsukiotoshi",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Cho Zutsuki",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kotenage",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Gaburiyori",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Tsukihanashi",
+        "input": ":qcf:+[A]",
+        "after": "Gaburiyori"
+      },
+      {
+        "name": "Kakenage",
+        "input": ":qcf:+[B]",
+        "after": "Gaburiyori"
+      },
+      {
+        "name": "Uwatenage",
+        "input": ":qcf:+[C]",
+        "after": "Gaburiyori"
+      },
+      {
+        "name": "Yorikiri",
+        "input": ":qcf:+[D]",
+        "after": "Gaburiyori"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Dai Ichiban",
+        "after": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Gassho Hineri",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Morotezuki",
+        "input": ":qcb::db::qcf:+[A]+[C]"
+      }
+    ]
+  }
+}
