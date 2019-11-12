@@ -56,7 +56,7 @@
         "after": "Mount Tackle"
       },
       {
-        "name": "Sleeper Lift (D.D.T.)",
+        "name": "Reverse D.D.T.",
         "input": ":d::d:+[C]",
         "after": "Mount Tackle"
       },
@@ -88,11 +88,11 @@
   },
   "custom_strings": {
     "english": {
-      "afterClarkCommandThrows": "after Napalm Stretch, Frankensteiner, Sleeper Lift (D.D.T.) {or} Super Argentine Backbreaker",
+      "afterClarkCommandThrows": "after Napalm Stretch, Frankensteiner, Reverse D.D.T. {or} Super Argentine Backbreaker",
       "gatlingFollowup": "Can be done immediately after a Gatling Attack"
     },
     "portuguese": {
-      "afterClarkCommandThrows": "após Napalm Stretch, Frankensteiner, Sleeper Lift (D.D.T.) {or} Super Argentine Backbreaker",
+      "afterClarkCommandThrows": "após Napalm Stretch, Frankensteiner, Reverse D.D.T. {or} Super Argentine Backbreaker",
       "gatlingFollowup": "Pode ser feito imediatamente após um Gatling Attack"
     }
   }
