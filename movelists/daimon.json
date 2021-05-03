@@ -13,8 +13,8 @@
   },
   "moves": {
     "{normalThrows}": [
-           {
-        "name": "Hiza Guruma",
+      {
+        "name": "Okuri Ashibarai",
         "input": "{close}, :b: {or} :f:+[C] {or} [D]"
       }
     ],
@@ -72,7 +72,15 @@
     ]
   },
   "custom_strings": {
-    "english": [{ "1StepAway": "one step away from the opponent" }],
-    "portuguese": [{ "1StepAway": "a um passo de distância do oponente" }]
+    "english": [
+      {
+        "1StepAway": "one step away from the opponent"
+      }
+    ],
+    "portuguese": [
+      {
+        "1StepAway": "a um passo de distância do oponente"
+      }
+    ]
   }
 }
