@@ -13,7 +13,7 @@
   },
   "moves": {
     "{normalThrows}": [
-           {
+      {
         "name": "Zett",
         "input": "{close}, :b: {or} :f:+[C] {or} [D]"
       }
