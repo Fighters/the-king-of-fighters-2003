@@ -54,10 +54,6 @@
         "input": "{inAir}, :qcf:+[A] {or} [C]"
       },
       {
-        "name": "Icarus Crash",
-        "input": "{inAir}, :qcf:+[A] {or} [C]"
-      },
-      {
         "name": "Griffall",
         "input": "{griffallMoves}, :df::df:+[A] {or} [C]"
       }
