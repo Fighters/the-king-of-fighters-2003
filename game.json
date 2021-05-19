@@ -1,579 +1,99 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "The King of Fighters 2003"
-      },
-      {
-        "region": "japan",
-        "roman": "The King of Fighters 2003",
-        "original": "ザ・キング・オブ・ファイターズ 2003"
-      }
-    ],
-    "also-known-as": ["kof 2003", "2k3"]
-  },
-  "platforms": [
-    {
-      "platform": "Arcade",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2003",
-          "original": "ザ・キング・オブ・ファイターズ 2003",
-          "releaseDate": "12-18-2003",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters 2003",
-          "releaseDate": "12-18-2003",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore"
-        }
-      ]
-    },
-    {
-      "platform": "Neo Geo",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2003",
-          "original": "ザ・キング・オブ・ファイターズ 2003",
-          "releaseDate": "03-18-2004",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore",
-          "coverFront": "ng-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters 2003",
-          "releaseDate": "03-18-2004",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore",
-          "coverFront": "ng-us-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "PlayStation 2",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2003",
-          "original": "ザ・キング・オブ・ファイターズ 2003",
-          "releaseDate": "10-28-2004",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore",
-          "coverFront": "ps2-jp-front.webp"
-        },
-        {
-          "region": "Europe",
-          "roman": "The King of Fighters 2003",
-          "releaseDate": "04-2006",
-          "developer": "SNK Playmore",
-          "publisher": "Ignition Entertainment",
-          "coverFront": "ps2-eu-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "XBox",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters 2003",
-          "original": "ザ・キング・オブ・ファイターズ 2003",
-          "releaseDate": "08-25-2005",
-          "developer": "SNK Playmore",
-          "publisher": "SNK Playmore",
-          "coverFront": "xbox-jp-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "K'"
-        },
-        {
-          "region": "japan",
-          "roman": "K'",
-          "original": "ケイ・ダッシュ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Maxima"
-        },
-        {
-          "region": "japan",
-          "roman": "Maxima",
-          "original": "マキシマ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Whip"
-        },
-        {
-          "region": "japan",
-          "roman": "Whip",
-          "original": "ウィップ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Benimaru Nikaido"
-        },
-        {
-          "region": "japan",
-          "roman": "Benimaru Nikaido",
-          "original": "二階堂 紅丸"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Terry Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Terry Bogard",
-          "original": "テリー・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Joe Higashi"
-        },
-        {
-          "region": "japan",
-          "roman": "Joe Higashi",
-          "original": "ジョー・ヒガシ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Blue Mary"
-        },
-        {
-          "region": "japan",
-          "roman": "Blue Mary",
-          "original": "ブルー・マリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryo Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryo Sakazaki",
-          "original": "リョウ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Robert Garcia"
-        },
-        {
-          "region": "japan",
-          "roman": "Robert Garcia",
-          "original": "ロバート・ガルシア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Leona Heidern"
-        },
-        {
-          "region": "japan",
-          "roman": "Leona Heidern",
-          "original": "レオナ・ハイデルン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ralf Jones"
-        },
-        {
-          "region": "japan",
-          "roman": "Ralf Jones",
-          "original": "ラルフ・ジョーンズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Clark Still"
-        },
-        {
-          "region": "japan",
-          "roman": "Clark Still",
-          "original": "クラーク・スティル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Athena Asamiya"
-        },
-        {
-          "region": "japan",
-          "roman": "Athena Asamiya",
-          "original": "麻宮 アテナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Mai Shiranui"
-        },
-        {
-          "region": "japan",
-          "roman": "Mai Shiranui",
-          "original": "不知火 舞"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yuri Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Yuri Sakazaki",
-          "original": "ユリ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kim Kaphwan"
-        },
-        {
-          "region": "japan",
-          "roman": "Kim Kaphwan",
-          "original": "キム・カッファン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chang Koehan"
-        },
-        {
-          "region": "japan",
-          "roman": "Chang Koehan",
-          "original": "チャン・コーハン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo Kusanagi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo Kusanagi",
-          "original": "草薙 京"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Iori Yagami"
-        },
-        {
-          "region": "japan",
-          "roman": "Iori Yagami",
-          "original": "八神 庵"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Goro Daimon"
-        },
-        {
-          "region": "japan",
-          "roman": "Goro Daimon",
-          "original": "大門 五郎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryuji Yamazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryuji Yamazaki",
-          "original": "山崎 竜二"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Billy Kane"
-        },
-        {
-          "region": "japan",
-          "roman": "Billy Kane",
-          "original": "ビリー・カーン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kusanagi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kusanagi",
-          "original": "KUSANAGI"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Jhun Hoon"
-        },
-        {
-          "region": "japan",
-          "roman": "Jhun Hoon",
-          "original": "ジョン・フーン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shingo Yabuki"
-        },
-        {
-          "region": "japan",
-          "roman": "Shingo Yabuki",
-          "original": "矢吹 真吾"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "King"
-        },
-        {
-          "region": "japan",
-          "roman": "King",
-          "original": "キング"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ash Crimson"
-        },
-        {
-          "region": "japan",
-          "roman": "Ash Crimson",
-          "original": "アッシュ・クリムゾン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Duo Lon"
-        },
-        {
-          "region": "japan",
-          "roman": "Duo Lon",
-          "original": "デュオロン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shen Woo"
-        },
-        {
-          "region": "japan",
-          "roman": "Shen Woo",
-          "original": "シェン・ウー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Tizoc"
-        },
-        {
-          "region": "japan",
-          "roman": "Griffon Mask",
-          "original": "グリフォンマスク"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Gato"
-        },
-        {
-          "region": "japan",
-          "roman": "Gato",
-          "original": "牙刀"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Hinako Shijo"
-        },
-        {
-          "region": "japan",
-          "roman": "Hinako Shijo",
-          "original": "四条 雛子"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Malin"
-        },
-        {
-          "region": "japan",
-          "roman": "Malin",
-          "original": "まりん"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chizuru Kagura"
-        },
-        {
-          "region": "japan",
-          "roman": "Chizuru Kagura",
-          "original": "神楽 ちづる"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Maki Kagura"
-        },
-        {
-          "region": "japan",
-          "roman": "Maki Kagura",
-          "original": "神楽 マキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Adelheid Bernstein"
-        },
-        {
-          "region": "japan",
-          "roman": "Adelheid Bernstein",
-          "original": "アーデルハイド・バーンシュタイン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Mukai"
-        },
-        {
-          "region": "japan",
-          "roman": "Mukai",
-          "original": "無界"
-        }
-      ]
-    }
-  ]
+	"names": [
+		{
+			"region": "default",
+			"roman": "The King of Fighters 2003"
+		},
+		{
+			"region": "japan",
+			"roman": "The King of Fighters 2003",
+			"original": "ザ・キング・オブ・ファイターズ 2003"
+		}
+	],
+	"also-known-as": [
+		"kof 2003",
+		"kof 2k3",
+		"2003",
+		"2k3"
+	],
+	"platforms": [
+		{
+			"name": "Arcade",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2003",
+					"original": "ザ・キング・オブ・ファイターズ 2003",
+					"releaseDate": "12-18-2003",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters 2003",
+					"releaseDate": "12-18-2003",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore"
+				}
+			]
+		},
+		{
+			"name": "Neo Geo",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2003",
+					"original": "ザ・キング・オブ・ファイターズ 2003",
+					"releaseDate": "03-18-2004",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore",
+					"coverFront": "ng-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters 2003",
+					"releaseDate": "03-18-2004",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore",
+					"coverFront": "ng-us-front.webp"
+				}
+			]
+		},
+		{
+			"name": "PlayStation 2",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2003",
+					"original": "ザ・キング・オブ・ファイターズ 2003",
+					"releaseDate": "10-28-2004",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore",
+					"coverFront": "ps2-jp-front.webp"
+				},
+				{
+					"name": "Europe",
+					"roman": "The King of Fighters 2003",
+					"releaseDate": "04-2006",
+					"developer": "SNK Playmore",
+					"publisher": "Ignition Entertainment",
+					"coverFront": "ps2-eu-front.webp"
+				}
+			]
+		},
+		{
+			"name": "XBox",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters 2003",
+					"original": "ザ・キング・オブ・ファイターズ 2003",
+					"releaseDate": "08-25-2005",
+					"developer": "SNK Playmore",
+					"publisher": "SNK Playmore",
+					"coverFront": "xbox-jp-front.webp"
+				}
+			]
+		}
+	]
 }
